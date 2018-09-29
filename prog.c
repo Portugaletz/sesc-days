@@ -14,4 +14,5 @@ int main(void) {
     weeks++;
   }
   printf("years: %d\nweeks: %d\ndays: %d\n",years, weeks, days);
+  return 0;
 }
