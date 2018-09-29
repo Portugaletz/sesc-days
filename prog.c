@@ -5,11 +5,11 @@ int main(void) {
   int numxD[1];
   scanf("%d",numxD);
   days = numxD[0];
-  while((days-365)>0){
+  while((days-365)>=0){
     days = days-365;
     years++;
   }
-  while(days-7>0){
+  while(days-7>=0){
     days=days-7;
     weeks++;
   }
